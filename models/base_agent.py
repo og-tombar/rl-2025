@@ -54,7 +54,7 @@ class ConvNet(nn.Module):
         return self.head(x)
 
 
-class BaseAgent(ABC):
+class Agent(ABC):
     """
     Abstract base class for RL agents.
     """

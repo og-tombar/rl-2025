@@ -8,10 +8,10 @@ from collections.abc import Sequence
 import torch
 from torch import nn, optim
 
-from models.base_agent import BaseAgent, ConvNet, Transition
+from models.base_agent import Agent, ConvNet, Transition
 
 
-class DQNAgent(BaseAgent):
+class DQNAgent(Agent):
     """
     A DQN agent.
     """
