@@ -8,7 +8,7 @@ from collections.abc import Sequence
 import torch
 from torch import nn, optim
 
-from models.base_agent import Agent, ConvNet, Transition
+from agents.base_agent import Agent, ConvNet, Transition
 
 
 class DQNAgent(Agent):
