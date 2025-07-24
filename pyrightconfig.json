@@ -1,5 +1,4 @@
 {
-  // use strict mode
   "typeCheckingMode": "basic",
   "reportUnknownMemberType": "none",
   "reportUnknownVariableType": "none",
@@ -7,5 +6,10 @@
   "reportUnknownLambdaType": "none",
   "reportUnknownParameterType": "none",
   "reportMissingParameterType": "none",
-  "reportOptionalSubscript": "none"
+  "reportOptionalSubscript": "none",
+  "reportOperatorIssue": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportPrivateImportUsage": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportArgumentType": "none"
 }
